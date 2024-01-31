@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-import SharedModel
+import SharedFeature
 
 // ----------------------------------------------------------------------------
 // MARK: - Public Structs & Enums

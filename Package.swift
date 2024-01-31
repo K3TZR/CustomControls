@@ -15,7 +15,7 @@ let package = Package(
   
   dependencies: [
     // ----- K3TZR -----
-    .package(url: "https://github.com/K3TZR/CommonFeatures.git", branch: "main"),
+    .package(url: "https://github.com/K3TZR/SDRApiFeatures.git", branch: "main"),
   ],
   
   targets: [
@@ -30,7 +30,7 @@ let package = Package(
     
     // LevelIndicatorView
     .target(name: "LevelIndicatorView", dependencies: [
-      .product(name: "SharedModel", package: "CommonFeatures"),
+      .product(name: "SharedFeature", package: "SDRApiFeatures"),
     ]),
 
     // ---------------- Tests ----------------
