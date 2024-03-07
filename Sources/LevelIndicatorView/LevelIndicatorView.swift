@@ -164,6 +164,23 @@ private let compressionStyle = IndicatorStyle(
     ]
 )
 
+private let daxStyle = IndicatorStyle(
+  width: 340,
+  left: -40.0,
+  right: 10.0,
+  warningLevel: 0.0,
+  criticalLevel: 0.0,
+  ticks:
+    [
+      Tick(value:-40.00, label: "-40"),
+      Tick(value:-30.0, label: "-30"),
+      Tick(value:-20.0, label: "-20"),
+      Tick(value:-10.0, label: "-10"),
+      Tick(value:0.0, label: "0"),
+      Tick(value:10.0, label: "10"),
+    ]
+)
+
 private let micStyle = IndicatorStyle(
   left: -40.0,
   right: 5.0,
@@ -248,23 +265,6 @@ private let swrStyle = IndicatorStyle(
       Tick(value:2.5, label: "2.5"),
       Tick(value:2.75),
       Tick(value:3.0, label: "3"),
-    ]
-)
-
-private let daxStyle = IndicatorStyle(
-  width: 300,
-  left: -40.0,
-  right: 10.0,
-  warningLevel: 0.0,
-  criticalLevel: 0.0,
-  ticks:
-    [
-      Tick(value:-40.00, label: "-40"),
-      Tick(value:-30.0, label: "-30"),
-      Tick(value:-20.0, label: "-20"),
-      Tick(value:-10.0, label: "-10"),
-      Tick(value:0.0, label: "0"),
-      Tick(value:10.0, label: "10"),
     ]
 )
 
